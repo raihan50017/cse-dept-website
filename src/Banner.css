@@ -1,0 +1,31 @@
+.main-banner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.main-banner::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.image {
+    height: 665px;
+}
+
+.slide_name h3 {
+    font-size: 80px;
+    color: yellow;
+}
