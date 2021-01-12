@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 import AddNotice from './AddNotice';
-import './AdminDashboard.css';
-import ManageNotice from './ManageNotice';
+import './AddNoticeDashboard.css';
 
-const AdminDashboard = () => {
+const AddNoticeDashboard = () => {
     return (
         <div className="admin__dashboard">
             <div className="admin__left">
@@ -15,11 +14,10 @@ const AdminDashboard = () => {
                 </ul>
             </div>
             <div style={{ marginTop: '180px' }} className="admin__right">
-                <ManageNotice></ManageNotice>
-                {/* <AddNotice></AddNotice> */}
+                <AddNotice></AddNotice>
             </div>
         </div>
     );
 };
 
-export default AdminDashboard;
+export default AddNoticeDashboard;

@@ -1,0 +1,22 @@
+.manage__notice {
+    padding: 0px 40px;
+}
+
+.single__notice {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.single__notice>.MuiSvgIcon-root {
+    cursor: pointer;
+    font-size: 28px;
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.single__notice>.MuiSvgIcon-root:hover {
+    color: rgba(255, 0, 0, 0.8);
+}

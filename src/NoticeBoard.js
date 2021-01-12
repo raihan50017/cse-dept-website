@@ -12,8 +12,6 @@ const NoticeBoard = () => {
 
     }, [])
 
-    console.log(notices);
-
     return (
         <div>
             <div class="bg"></div>

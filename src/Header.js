@@ -35,7 +35,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="m-auto align-items-center">
-                        <Nav.Link className="mr-3 text-white" href="/home">Home</Nav.Link>
+                        <Nav.Link className="mr-3 text-white"><Link className="text-white" to="/">Home</Link></Nav.Link>
                         <div className="dropdown">
                             <Nav.Link className="mr-3 text-white" href="#about">About</Nav.Link>
                             <div id="dropdown-content">

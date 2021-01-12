@@ -16,6 +16,7 @@ import NoticeBoard from './NoticeBoard';
 import Notice from './Notice';
 import AdminDashboard from './AdminDashboard';
 import PrivateRoute from './PrivateRoute';
+import AddNoticeDashboard from './AddNoticeDashboard';
 function App() {
 
   const [{ user }, dispatch] = useStateValue();
@@ -55,6 +56,9 @@ function App() {
         </Route>
         <PrivateRoute path="/admin">
           <AdminDashboard></AdminDashboard>
+        </PrivateRoute>
+        <PrivateRoute path="/add-notice-dashboard">
+          <AddNoticeDashboard></AddNoticeDashboard>
         </PrivateRoute>
         <Route path="/notice/:notice_id">
           <Notice></Notice>

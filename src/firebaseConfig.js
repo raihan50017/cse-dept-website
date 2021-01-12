@@ -7,7 +7,7 @@ const firebaseConfig = {
     storageBucket: "cse-dept-40a0d.appspot.com",
     messagingSenderId: "1054739703471",
     appId: "1:1054739703471:web:35a46b74a38866c1ab165a"
-  };
+};
 
 // const firebaseConfig = {
 //     apiKey: "AIzaSyBMrDxvZ6cTGPGMVMc3u9N0mk1V9LQ81Mk",
